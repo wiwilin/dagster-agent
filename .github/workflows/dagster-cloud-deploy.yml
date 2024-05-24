@@ -22,7 +22,7 @@ env:
   DAGSTER_CLOUD_YAML_PATH: "dagster_cloud.yaml"
   # The IMAGE_REGISTRY should match the 'registry:'' in dagster_cloud.yaml
   IMAGE_REGISTRY: "904939864379.dkr.ecr.ap-southeast-2.amazonaws.com/dagster-agent"
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   dagster-cloud-deploy:
     runs-on: ubuntu-20.04
